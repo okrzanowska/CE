@@ -1,0 +1,16 @@
+@import "src/global-styles/styles/root.scss";
+
+/* SEKCJA INFORMACJI */
+
+#oszkole_projekty{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#oszkole_projekty h1{
+    color: $primary-blue;
+    font-size: xx-large;
+}
+

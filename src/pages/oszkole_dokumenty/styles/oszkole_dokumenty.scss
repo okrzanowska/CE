@@ -1,0 +1,20 @@
+@import "src/global-styles/styles/root.scss";
+
+/* SEKCJA INFORMACJI */
+
+#oszkole_dokumenty{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#oszkole_dokumenty h1{
+    color: $primary-blue;
+    font-size: xx-large;
+}
+
+#oszkole_dokumenty li{
+    color: #000;
+    font-size: larger;
+}

@@ -1,0 +1,28 @@
+@import "src/global-styles/styles/root.scss";
+
+/* SEKCJA */
+
+#technikum{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 130px;
+}
+
+#technikum h1{
+    color: $primary-blue;
+    font-size: xx-large;
+}
+
+#technikum p{
+    color: #000;
+    font-size: larger;
+}
+
+.technikum__article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}

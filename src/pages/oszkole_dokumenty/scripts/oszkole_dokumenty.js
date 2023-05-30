@@ -1,0 +1,1 @@
+import '../styles/oszkole_dokumenty.scss'

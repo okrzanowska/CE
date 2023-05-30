@@ -1,0 +1,26 @@
+@import "src/global-styles/styles/root.scss";
+
+/* SEKCJA INFORMACJI */
+
+#oszkole_historia{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#oszkole_historia h1{
+    color: $primary-blue;
+    font-size: xx-large;
+}
+
+#oszkole_historia p, #oszkole_historia li{
+    color: #000;
+    font-size: larger;
+}
+
+.oszkole_historia-pliki h2, .oszkole_historia-pliki a{
+    color: $primary-blue;
+    font-size: x-large;
+    text-decoration: none;
+}
