@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); /*font-family: 'Inter', sans-serif;8*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap'); /*font-family: 'Barlow Semi Condensed', sans-serif;*/
+
+*{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+/* DOSTĘPNOŚĆ */
+
+/* NAWIGACJA */
+nav{
+    background-color: #01498C;
+    padding: 10px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+  
+nav img{
+height: 50px;
+}
+  
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+  
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+  
+nav ul li ul.dropdown li{
+    padding: 10px 5px;
+}
+  
+nav ul li ul.dropdown{
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: #01498C;
+    z-index: 999;
+    padding: 0;
+}
+  
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+  
+/* SEKCJA NAGŁÓWKOWA */
+.header__img{
+    height: 500px;
+    background-image: url(/assets/images/main.png);
+    display: flex;
+    align-items: center;
+}
+  
+.header__img-title{
+    padding: 130px;
+    font-size: 32px;
+}
+
+/* MAIN */
+ 
+/* SEKCJA TECHNIKUM I LICEUM */
+#home-page h1{
+    color: #01498C;
+    font-size: 40px;
+}
+  
+.schools{
+    margin: 100px 130px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+  
+.technikum{
+    background-image: url(/assets/images/technikum.png);
+}
+  
+.liceum{
+    background-image: url(/assets/images/liceum.png);
+}
+  
+.technikum, .liceum{
+    width: 720px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.technikum__content, .liceum__content{
+    text-align: center;
+}
+
+#home-page button{
+    background-color: #01498C;
+    border: none;
+    padding: 20px 25px;
+}
+  
+#home-page button a{
+    text-decoration: none;
+}
+  
+#home-page button:hover {
+    background-color: #5ca5e8;
+}
+  
+/* SEKCJA PERSWAZJI */
+  
+#aktualności{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.aktualności__img{
+    background-image: url(/assets/images/persuasion.png);
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+.aktualności__content{
+    width: 1800px;
+    height: 250px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+}
+.aktualności__text{
+    margin: 0 130px;
+}
+
+.news{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 130px;
+}
+
+.news h1{
+    color: #01498C;
+    font-size: xx-large;
+}
+
+.news p{
+    color: #000;
+    font-size: larger;
+}
+
+.news__article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* SEKCJA */
+
+#liceum, #technikum{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 130px;
+}
+
+#liceum h1, #technikum h1{
+    color: #01498C;
+    font-size: xx-large;
+}
+
+#liceum p, #technikum p{
+    color: #000;
+    font-size: larger;
+}
+
+.liceum__article, .technikum__article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* SEKCJE O SZKOLE */
+
+#oszkole_informacje, #oszkole_historia, #oszkole_dokumenty, #oszkole_projekty{
+    margin: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#oszkole_informacje h1, #oszkole_historia h1, #oszkole_dokumenty h1, #oszkole_projekty h1{
+    color: #01498C;
+    font-size: xx-large;
+}
+
+#oszkole_informacje h2{
+    color: #01498C;
+    font-size: x-large;
+}
+
+#oszkole_informacje p, #oszkole_historia p, #oszkole_historia li, #oszkole_dokumenty li{
+    color: #000;
+    font-size: larger;
+}
+
+#oszkole_informacje-content{
+    width: 70px;
+}
+
+.oszkole_historia-pliki h2, .oszkole_historia-pliki a{
+    color: #01498C;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.dojazd__img{
+    display: flex;
+    justify-content: center;
+}
+  
+/* STOPKA */
+.footer__box{
+    background-color: #01498C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 130px;
+}
+  
+.footer__img{
+    background-image: url(/assets/images/footer.png);
+    width: 100%;
+    height: 500px;
+}
+  
+.footer__img-content{
+    background-color: #01498C;
+    height: 350px;
+    width: 600px;
+    margin: 0 130px;
+    position: absolute;
+    top: 1800px;
+}
+  
+.footer__img h1{
+    margin: 50px;
+    font-size: 32px;
+}
+
+.footer__logo img{
+    width: 110px;
+}
+  
+footer h1{
+    font-size: 14px;
+}
+  
+.footer__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.footer__social img{
+    width: 30px;
+}
